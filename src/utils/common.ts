@@ -1,5 +1,5 @@
 export const getMenuStyles = (menuOpened: boolean): { right?: string } | undefined => {
-  if (document.documentElement.clientWidth <= 800) {
+  if (typeof window !== 'undefined' && document.documentElement.clientWidth <= 800) {
     return { right: !menuOpened ? "-100%" : "0" };
   }
   return undefined;
