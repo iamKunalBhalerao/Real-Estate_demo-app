@@ -25,5 +25,3 @@ const useHeaderColor = (): string => {
 };
 
 export default useHeaderColor;
-
-export default useHeaderColor;
