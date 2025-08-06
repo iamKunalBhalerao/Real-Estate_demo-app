@@ -2,9 +2,7 @@ import data from "../../utils/slider";
 import type { SliderData } from "../../utils/slider";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { sliderSettings } from "../../utils/common";
-// @ts-expect-error import
-import "swiper/css";
-// @ts-expect-error import
+import "swiper/swiper-bundle.css";
 import "./Residencies.css"; // Assuming you have a CSS file for styles
 
 const Residencies = () => {
